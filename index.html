@@ -1,51 +1,167 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Holy Wazifa</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/uikit.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<script src="js/jquery.js"></script>	
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
+    <title>Holy Wazifa</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/uikit.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="js/jquery.js"></script>
 </head>
+
+<style>
+    .uk-accordion-title {
+        font-size: 22px !important;
+        line-height: 1.5;
+        font-weight: 600;
+    }
+
+    .uk-accordion-title:hover,
+    .uk-accordion-title:focus {
+        text-decoration: none;
+    }
+</style>
+
 <body>
-    <div class="uk-container-flurid">
-       <div class="container">
-            <div class="container">
-                <br>
-                <center><img src="img/logo.png" width="130px" height="130px" alt="" class="img-responsive"></center>
-                <br>
-                <h2 class="text-center">মোহাম্মদী ইসলামের</h2>
-                <h3 class="text-center">ওয়াজিফা</h3>
-                <h3 class="text-center">(দৈনিক আমল)</h3>
-                <h3 class="text-center" style="text-decoration: underline;">প্রণেতা ও প্রকাশক</h3>
-                <br>
-                <p class="text-center">
-                    মহান সংস্কারক, মোহাম্মদী ইসলামের পুনর্জীবনদানকারী, যুগের ইমাম,
-আম্বিয়ায়ে কেরামের ধর্মের দায়িত্ব ও বেলায়েত লাভকারী, আল্লাহ্র
-দেওয়া পুরস্কার : পূর্ণিমার চাঁদে বাবা দেওয়ানবাগীর জীবন্ত প্রতিচ্ছবি <br>
-<b>সূফী সম্রাট হযরত সৈয়দ মাহবুব-এ-খোদা দেওয়ানবাগী (মাঃ আঃ) হুজুর কেবলাজান</b>
-                </p>
-                <br>
-            </div>
-        </div>
-        
+
+<div class="uk-container-fluid">
+    <div class="container">
+
+        <br>
+
+        <center>
+            <img alt=""
+                 class="img-responsive"
+                 height="130"
+                 src="img/logo.png"
+                 width="130">
+        </center>
+
+        <br>
+
+        <h2 class="text-center">মোহাম্মদী ইসলামের</h2>
+        <h3 class="text-center">ওয়াজিফা</h3>
+        <h3 class="text-center">(দৈনিক আমল)</h3>
+
+        <h3 class="text-center"
+            style="text-decoration: underline;">
+            প্রণেতা ও প্রকাশক
+        </h3>
+
+        <br>
+
+        <p class="text-center">
+            মহান সংস্কারক, মোহাম্মদী ইসলামের পুনর্জীবনদানকারী,
+            যুগের ইমাম, আম্বিয়ায়ে কেরামের ধর্মের দায়িত্ব ও
+            বেলায়েত লাভকারী, আল্লাহ্র দেওয়া পুরস্কার :
+            পূর্ণিমার চাঁদে বাবা দেওয়ানবাগীর জীবন্ত প্রতিচ্ছবি
+            <br>
+            <b>
+                সূফী সম্রাট হযরত সৈয়দ মাহবুব-এ-খোদা
+                দেওয়ানবাগী (মাঃ আঃ) হুজুর কেবলাজান
+            </b>
+        </p>
+
+        <br>
+
+        <!-- Expandable Sections -->
+
+        <ul uk-accordion>
+
+            <li>
+                <a class="uk-accordion-title"
+                   href="#"
+                   onclick="loadContent(this, 'pages/01.html')">
+                    ভূমিকা
+                </a>
+
+                <div class="uk-accordion-content">
+                    <div class="content-area"></div>
+                </div>
+            </li>
+
+            <li>
+                <a class="uk-accordion-title"
+                   href="#"
+                   onclick="loadContent(this, 'biography.html')">
+                    সংক্ষিপ্ত জীবনি মোবারক
+                </a>
+
+                <div class="uk-accordion-content">
+                    <div class="content-area"></div>
+                </div>
+            </li>
+
+            <li>
+                <a class="uk-accordion-title"
+                   href="#"
+                   onclick="loadContent(this, 'full_index.html')">
+                    সূচিপত্র
+                </a>
+
+                <div class="uk-accordion-content">
+                    <div class="content-area"></div>
+                </div>
+            </li>
+
+            <li>
+                <a class="uk-accordion-title"
+                   href="#"
+                   onclick="loadContent(this, 'update.html')">
+                    এপ সমন্ধে
+                </a>
+
+                <div class="uk-accordion-content">
+                    <div class="content-area"></div>
+                </div>
+            </li>
+
+        </ul>
+
+        <br>
+
     </div>
-	<script src="js/uikit-icons.js"></script>
-	<script src="js/uikit.js"></script>
+</div>
+
+<script src="js/uikit.js"></script>
+<script src="js/uikit-icons.js"></script>
+
+<script>
+    function loadContent(element, page) {
+
+        const container =
+            element.parentElement.querySelector('.content-area');
+
+        // Already loaded
+        if (container.dataset.loaded === "true") {
+            return;
+        }
+
+        fetch(page)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(page + " not found");
+                }
+                return response.text();
+            })
+            .then(html => {
+                container.innerHTML = html;
+                container.dataset.loaded = "true";
+            })
+            .catch(error => {
+                container.innerHTML =
+                    "<p class='text-danger'>Content not found.</p>";
+
+                console.error(error);
+            });
+    }
+</script>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
