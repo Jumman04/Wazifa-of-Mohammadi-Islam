@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Bangla;
+  src: url(../kalpurush.ttf);
+}
+
+@font-face {
+  font-family: Arabic;
+  src: url(../Arabic.ttf);
+}
+
+
+
+
+body{
+    font-family: 'Bangla', arial, Arabic !important;
+    font-size: 17px !important;
+}
+
+
+.title{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.mainmenu{
+    display: block;
+    font-size: 18px;
+    color: #fff;
+}
+
+.mainmenu:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header{
+    background: #309e23;
+    padding: 19px;
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+.uk-offcanvas-bar{
+    background: #fff !important;
+    color: #282828;
+}
+
+
+.uk-offcanvas-bar ul{}
+.uk-offcanvas-bar ul li{}
+.uk-offcanvas-bar ul li a{
+    color: #222;
+    display: block;
+    padding: 11px;
+    border-bottom: 1px solid #ddd;
+    font-size: 17px;
+    margin-left: -35px;
+    padding-left: 20px;
+}
+.uk-offcanvas-bar ul li a:hover{
+    color: #282828;
+    text-decoration: none;
+    background: #ddd;
+}
