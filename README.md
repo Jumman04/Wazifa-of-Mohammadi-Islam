@@ -10,8 +10,6 @@
 
 <p align="center">
   <a href="https://jummania.github.io/Wazifa-of-Mohammadi-Islam/">ওয়াজিফা পড়ুন</a>
-  ·
-  <a href="https://github.com/jummania/Wazifa-of-Mohammadi-Islam">GitHub Repository</a>
 </p>
 
 ---
