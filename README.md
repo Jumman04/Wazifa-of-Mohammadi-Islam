@@ -1,9 +1,10 @@
-<img width="640" height="360" alt="Wazifa-Rules-and-tasks-to-be-followed-in-everyday-prayers" src="https://github.com/user-attachments/assets/0b8185af-f46d-4daa-b0b4-31489261677e" />
+<img width="640" height="360" alt="ওয়াজিফা — দৈনন্দিন নামাজে অনুসরণীয় বিধান ও আমলসমূহ" src="https://github.com/user-attachments/assets/0b8185af-f46d-4daa-b0b4-31489261677e" />
 
-# Wazifa (Rules and tasks to be followed in everyday prayers)
-Published: 1985<br>
-Written By: Sufi Emperor Hazrat Syed Mahabub-E-Khoda (Rh.)<br>
-Type: Ritual Guideline<br>
-Language: Bangla <br>
+# ওয়াজিফা (দৈনন্দিন ইবাদতে অনুসরণীয় বিধান ও আমলসমূহ)
 
-Through hard perseverance and spiritual meditation the reverent Sufi Emperor has composed the Wazifa of Mohammadi Islam focussing on the Holy Quran and Hadith. Following this one can be of ideal character by getting acquainted with Allah and the Prophet (PBUH). Maintaining this wazifa is very important to walk a step forward in the journey of gaining Allah.
+প্রকাশকাল: ১৯৮৫<br>
+রচয়িতা: সুফি সম্রাট হযরত সৈয়দ মাহবুব-এ-খোদা (রহ.)<br>
+ধরণ: ধর্মীয় আমল ও নির্দেশিকা<br>
+ভাষা: বাংলা<br>
+
+পবিত্র কুরআন ও হাদিসকে কেন্দ্র করে **সুফি সম্রাট হযরত সৈয়দ মাহবুব-এ-খোদা (রহ.)** কঠোর সাধনা, অধ্যবসায় ও আধ্যাত্মিক ধ্যানের মাধ্যমে **মোহাম্মদী ইসলামের ওয়াজিফা** সংকলন করেছেন। এই ওয়াজিফা অনুসরণের মাধ্যমে একজন মানুষ আল্লাহ তাআলা ও মহানবী হযরত মুহাম্মদ (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম)-এর পরিচয় ও শিক্ষা সম্পর্কে গভীরভাবে অবগত হয়ে আদর্শ চরিত্র গঠনে সক্ষম হতে পারেন। আল্লাহর নৈকট্য ও সন্তুষ্টি অর্জনের পথে অগ্রসর হতে এই ওয়াজিফা নিয়মিত পালন অত্যন্ত গুরুত্বপূর্ণ।
