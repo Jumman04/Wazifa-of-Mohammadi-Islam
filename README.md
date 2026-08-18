@@ -63,16 +63,6 @@
 ---
 
 
-
-## অ্যাপ তথ্য
-
-* **Version:** 1.2
-* **24th Edition**
-* **Published:** 16 December 2019
-* **Publisher:** Sufi Foundation Bangladesh
-
----
-
 ## উদ্দেশ্য
 
 এই প্রকল্পের উদ্দেশ্য হলো **"মোহাম্মদী ইসলামের ওয়াজিফা"**-এর বাংলা বিষয়বস্তুকে একটি সহজলভ্য ডিজিটাল সংস্করণে সংরক্ষণ ও উপস্থাপন করা।
@@ -92,7 +82,6 @@
 ## Links
 
 * **Website:** https://jummania.github.io/Wazifa-of-Mohammadi-Islam/
-* **GitHub:** https://github.com/jummania/Wazifa-of-Mohammadi-Islam
 
 ---
 
