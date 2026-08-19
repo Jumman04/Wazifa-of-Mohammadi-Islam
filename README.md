@@ -1,7 +1,9 @@
 # মোহাম্মদী ইসলামের ওয়াজিফা (দৈনিক আমল)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0b8185af-f46d-4daa-b0b4-31489261677e" alt="Wazifa of Mohammadi Islam" width="640">
+  <a href="https://jummania.github.io/Wazifa-of-Mohammadi-Islam/" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/user-attachments/assets/0b8185af-f46d-4daa-b0b4-31489261677e" alt="Wazifa of Mohammadi Islam" width="640">
+  </a>
 </p>
 
 <p align="center">
