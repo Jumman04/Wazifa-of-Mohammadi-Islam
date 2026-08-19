@@ -69,98 +69,35 @@
         </p>
 
         <br>
-
-        <!-- Expandable Sections -->
-
-        <ul uk-accordion>
-
-            <li>
-                <a class="uk-accordion-title"
-                   href="#"
-                   onclick="loadContent(this, 'pages/01.html')">
-                    ভূমিকা
-                </a>
-
-                <div class="uk-accordion-content">
-                    <div class="content-area"></div>
-                </div>
-            </li>
-
-            <li>
-                <a class="uk-accordion-title"
-                   href="#"
-                   onclick="loadContent(this, 'biography.html')">
-                    সংক্ষিপ্ত জীবনি মোবারক
-                </a>
-
-                <div class="uk-accordion-content">
-                    <div class="content-area"></div>
-                </div>
-            </li>
-
-            <li>
-                <a class="uk-accordion-title"
-                   href="#"
-                   onclick="loadContent(this, 'full_index.html')">
-                    সূচিপত্র
-                </a>
-
-                <div class="uk-accordion-content">
-                    <div class="content-area"></div>
-                </div>
-            </li>
-
-            <li>
-                <a class="uk-accordion-title"
-                   href="#"
-                   onclick="loadContent(this, 'update.html')">
-                    এপ সমন্ধে
-                </a>
-
-                <div class="uk-accordion-content">
-                    <div class="content-area"></div>
-                </div>
-            </li>
-
-        </ul>
-
         <br>
+
+        <div id="role"></div>
+        <br>
+        <br>
+        <center><h2>সূচিপত্র</h2></center>
+        <div id="index"></div>
+        <br>
+        <div id="info"></div>
 
     </div>
 </div>
 
 <script src="js/uikit.js"></script>
 <script src="js/uikit-icons.js"></script>
-
 <script>
-    function loadContent(element, page) {
-
-        const container =
-            element.parentElement.querySelector('.content-area');
-
-        // Already loaded
-        if (container.dataset.loaded === "true") {
-            return;
-        }
-
-        fetch(page)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(page + " not found");
-                }
-                return response.text();
-            })
-            .then(html => {
-                container.innerHTML = html;
-                container.dataset.loaded = "true";
-            })
-            .catch(error => {
-                container.innerHTML =
-                    "<p class='text-danger'>Content not found.</p>";
-
-                console.error(error);
-            });
-    }
+    Promise.all([
+        fetch('pages/01.html').then(res => res.text()),
+        fetch('full_index.html').then(res => res.text()),
+        fetch('update.html').then(res => res.text())
+    ])
+        .then(([roleData, indexData, infoData]) => {
+            document.getElementById('role').innerHTML = roleData;
+            document.getElementById('index').innerHTML = indexData;
+            document.getElementById('info').innerHTML = infoData;
+        })
+        .catch(error => {
+            console.error('ফাইল লোড করতে সমস্যা হয়েছে:', error);
+        });
 </script>
 
 </body>
