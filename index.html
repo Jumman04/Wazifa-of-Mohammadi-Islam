@@ -74,6 +74,7 @@
         <div id="role"></div>
         <br>
         <br>
+        <center><h2>সূচিপত্র</h2></center>
         <div id="index"></div>
         <br>
         <br>
@@ -92,7 +93,7 @@
     ])
         .then(([roleData, indexData, infoData]) => {
             document.getElementById('role').innerHTML = roleData;
-            document.getElementById('index').innerHTML = "<center><h2>সূচিপত্র</h2></center>" + indexData;
+            document.getElementById('index').innerHTML = indexData;
             document.getElementById('info').innerHTML = infoData;
         })
         .catch(error => {
