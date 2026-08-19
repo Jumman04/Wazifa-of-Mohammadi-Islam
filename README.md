@@ -1,4 +1,4 @@
-# মোহাম্মদী ইসলামের ওয়াজিফা
+# মোহাম্মদী ইসলামের ওয়াজিফা (দৈনিক আমল)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0b8185af-f46d-4daa-b0b4-31489261677e" alt="Wazifa of Mohammadi Islam" width="640">
