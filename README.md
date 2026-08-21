@@ -67,6 +67,14 @@
 
 ---
 
+## Credits
+
+- [Dewanbag Sharif](https://dewanbagsharif.org) — Source and reference
+- [Mahide Hasan Anik](https://github.com/Mahide41) — Original Android app and source code
+- [Jummania](https://github.com/jummania) — HTML adaptation and digital publication
+
+---
+
 <p align="center">
   <strong>মোহাম্মদী ইসলামের ওয়াজিফা</strong><br>
   বাংলা ডিজিটাল সংস্করণ
